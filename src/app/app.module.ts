@@ -1,0 +1,22 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+
+import { AppComponent } from './app.component';
+import { ServerComponent } from './server/server.component';
+import { TopServerComponent } from './top-server/top-server.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    ServerComponent,
+    TopServerComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
